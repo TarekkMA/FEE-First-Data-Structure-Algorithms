@@ -20,6 +20,7 @@ This snippet of code reverse the orrder of the queue.
 
 ### c
 ![a](1-c.png)
+
 [للبرنامج كامل (اضغط هنا)](/isBalanced.cpp) 
 
 ```cpp
