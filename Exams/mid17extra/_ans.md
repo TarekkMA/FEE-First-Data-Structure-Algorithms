@@ -3,6 +3,7 @@
 
 ##  1
 ### a
+![a](1-a.png)
 ```markdown
 ** INFIX **
 ``A*(B-C*D-E)*F
@@ -13,11 +14,12 @@ A B C D * - E - * F *
 ```
 
 ### b
+![a](1-b.png)
 This snippet of code reverse the orrder of the queue.    
 الكود بيعكس الكيو عن طريق انة بيخرج العناصر منها بالترتيب ويدخلهم ف الإستاك. بعد كدا هيخرجهم من الإستاك يرجعهم الكيو تاني بس علشان الإستاك بيعكس الخرج هيبقي الناتج هو عكس الكيو الأصلية
 
 ### c
-
+![a](1-c.png)
 [للبرنامج كامل (اضغط هنا)](/isBalanced.cpp) 
 
 ```cpp
@@ -78,6 +80,8 @@ int main() {
 ## 2
 
 ### a
+![a](2-a.png)
+
 
 [للبرنامج كامل (اضغط هنا)](./addAfter50.cpp) 
 
@@ -97,6 +101,7 @@ void addAfter50(node*& head,int value){
 ```
 
 ## b
+![a](2-b.png)
 this snippet of code reverses the orrder of the doubly linked list
 
 ```markdown
@@ -105,6 +110,7 @@ this snippet of code reverses the orrder of the doubly linked list
 ```
 
 ## 3
+![a](3-a.png)
 ```cpp
 struct StackNode{
     int value;
