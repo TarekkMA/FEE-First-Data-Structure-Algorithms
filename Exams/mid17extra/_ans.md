@@ -1,8 +1,8 @@
-# 2013 Midterm eXtra
+# 2018 Midterm eXtra
 ---
 
 ##  1
-## a
+### a
 ```markdown
 ** INFIX **
 ``A*(B-C*D-E)*F
@@ -12,13 +12,14 @@ A B C D * - E - * F *
 * * A - - B * C D E F
 ```
 
-## b
-This snippt of code reverse the orrder of the queue.    
+### b
+This snippet of code reverse the orrder of the queue.    
 الكود بيعكس الكيو عن طريق انة بيخرج العناصر منها بالترتيب ويدخلهم ف الإستاك. بعد كدا هيخرجهم من الإستاك يرجعهم الكيو تاني بس علشان الإستاك بيعكس الخرج هيبقي الناتج هو عكس الكيو الأصلية
 
-## c
+### c
 
-[للبرنامج كامل (اضغط هنا)]('./isBalanced.cpp')
+[للبرنامج كامل (اضغط هنا)](/isBalanced.cpp) 
+
 ```cpp
 
 bool isBalanced(char expression[]){
@@ -73,3 +74,45 @@ int main() {
     return 0;
 }
 ```
+
+## 2
+
+### a
+
+[للبرنامج كامل (اضغط هنا)](./addAfter50.cpp) 
+
+```cpp
+void addAfter50(node*& head,int value){
+    node* cur = head;
+    
+    while(cur->value != 50){
+        cur = cur->next;
+    }
+    
+    node* new_node = new node;
+    new_node->value = value;
+    new_node->next = cur->next;
+    cur->next = new_node;
+}
+```
+
+## b
+this snippet of code reverses the orrder of the doubly linked list
+
+```markdown
+# OUTPUT #
+6 <-> 5 <-> 4 <-> 3 <-> 2 <-> 1
+```
+
+## 3
+```cpp
+struct StackNode{
+    int value;
+    StackNode* prev;
+} *top = NULL;
+
+struct QueueNode{
+    int value;
+    QueueNode* next;
+} *front = NULL;
+``` 
