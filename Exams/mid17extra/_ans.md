@@ -84,7 +84,7 @@ int main() {
 ![a](2-a.png)
 
 
-[للبرنامج كامل (اضغط هنا)](./addAfter50.cpp) 
+[للبرنامج كامل (اضغط هنا)](./addAfter5.cpp) 
 
 ```cpp
 void addAfter50(node*& head,int value){
