@@ -8,6 +8,7 @@
 * #### :pencil: Sheets
     * [**Sheet 6 Queue**](/sheets17/sheet6/_.md)
     * [**Sheet 7 Data Structure Review**](/sheets17/sheet7/_.md)
+    * [**Sheet 8 OOP**](/sheets17/sheet8/_.md)
 
 * #### :clipboard: Previous Exams
     * [**Midterm 2017 Extra (التحسين)**](/Exams/mid17extra/_ans.md)
