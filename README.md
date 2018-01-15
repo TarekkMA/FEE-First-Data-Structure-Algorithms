@@ -6,7 +6,7 @@
 ## :book: **Contents :-**
 
 * #### :pencil: Sheets
-    * [**Sheet 6 Queue**]('/sheets17/sheet6/_.md')
+    * [**Sheet 6 Queue**](/sheets17/sheet6/_.md)
 
 * #### :clipboard: Previous Exams
     * [**Midterm 2017 Extra (التحسين)**](/Exams/mid17extra/_ans.md)
