@@ -7,5 +7,6 @@
 * #### :clipboard: Previous Exams
     * [**Midterm 2017 Extra (التحسين)**](/Exams/mid17extra/_ans.md)
     * [**Midterm 2017 A**](/Exams/mid17a/_ans.md)
+    * [**Midterm 2017 B**](/Exams/mid17b/_ans.md)
     * [**Midterm 2016**](/Exams/Mid16/1.md)
 ***
