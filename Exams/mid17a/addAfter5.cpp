@@ -24,6 +24,14 @@ void addToEnd(Node*& head,int value){
     cur->next = nn;
 }
 
+void copy(Node*& oldHead,Node*& newHead){
+    Node* cur = oldHead;
+    while(cur!=NULL){
+        addToEnd(newHead,cur->value);
+        cur = cur->next;
+    }
+}
+
 void display(Node* node){
     while(node!=NULL){
         cout << node->value << endl;
