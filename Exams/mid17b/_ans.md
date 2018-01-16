@@ -65,7 +65,7 @@ PREFIX:  / * * + A B - * C D E F G
 ```
 ---
 ![a](3-2.png)    
-**Print n node**
+**Print nth node from the end**
 ---
 ![a](3-3.png)
 **Queue outputs input in the same orrder that it was enterd with (First in First out)**    
