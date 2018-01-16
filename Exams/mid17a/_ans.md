@@ -37,20 +37,17 @@
 void addAfter5(Node* head,int value){
     Node* nn = new Node;
     nn->value = value;
-
-    if(head->value == 5){
-        nn->next = head;
-        head = nn;
-        return;
-    }
-
-    Node* cur = head->next;
-    Node* prev = head;
-    while(cur->value!=5){
+    
+    int i = 1;
+    
+    Node* cur = head;
+    Node* prev;
+    while(i<5){
         prev = cur;
         cur = cur->next;
+        i++;
     }
-
+    
     nn->next = cur;
     prev->next = nn;
 }
@@ -70,7 +67,7 @@ PREFIX:  / * * - A B + C D E + F G
 
 ```cpp
 if(temp != NULL){
-    *head = temp->prev;
+    *head = prev;
 }
 ```
 
