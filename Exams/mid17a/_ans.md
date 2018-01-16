@@ -66,7 +66,7 @@ PREFIX:  / * * - A B + C D E + F G
 ![a](3-2.png)
 
 ```cpp
-if(temp != NULL){
+if(prev != NULL){
     *head = prev;
 }
 ```
