@@ -7,7 +7,7 @@
 **a) Underflow**
 ![a](1-1.png)
 
-**b) 2**
+**c) 3**
 ![a](1-2.png)
 
 **d) all of the mentioned**

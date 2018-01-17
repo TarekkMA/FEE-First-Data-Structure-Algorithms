@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "string_view": "cpp",
-        "ios": "cpp"
+        "ios": "cpp",
+        "algorithm": "cpp"
     }
 }
